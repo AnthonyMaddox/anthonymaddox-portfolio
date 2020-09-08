@@ -4,6 +4,7 @@ import "./App.css";
 import resume from "./Anthony_Maddox_Resume.pdf";
 import headshot from "./amaddox-headshot1-small.jpg";
 
+
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,16 @@ function App() {
             My Github
           </a>
         </div>
-        <div className="aboutDiv"><b style={{fontSize: "16px"}}>About:</b> I am a software engineer with a background in fisheries biology and music. The desire to be with my family in Maryland and a fascination for all things science fuel my desire for continued education and my career in software development. My adaptability and forbearance make me successful in working with multiple, diverse teams, simultaneously. I offer a passion for front-end development with the tools for programming my artistic masterpieces to life.</div>
+        <div className="aboutDiv">
+          <b style={{ fontSize: "16px" }}>About:</b> I am a software engineer
+          with a background in fisheries biology and music. The desire to be
+          with my family in Maryland and a fascination for all things science
+          fuel my desire for continued education and my career in software
+          development. My adaptability and forbearance make me successful in
+          working with multiple, diverse teams, simultaneously. I offer a
+          passion for front-end development with the tools for programming my
+          artistic masterpieces to life.
+        </div>
       </div>
       <div className="projectsDiv">
         <div className="cssDiv">
