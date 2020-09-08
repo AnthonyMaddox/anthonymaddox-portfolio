@@ -4,7 +4,6 @@ import "./App.css";
 import resume from "./Anthony_Maddox_Resume.pdf";
 import headshot from "./amaddox-headshot1-small.jpg";
 
-
 function App() {
   return (
     <div className="App">
@@ -86,6 +85,13 @@ function App() {
               title="Indian Cities API"
               github="https://github.com/AnthonyMaddox/sei38-project6"
               deployed="https://indian-cities-api.herokuapp.com/cities"
+            />
+          </div>
+          <div>
+            <Card
+              title="Coders-Cookout api"
+              github="https://github.com/AnthonyMaddox/recipes-group-project-backend"
+              deployed="https://coders-cookout.herokuapp.com/recipes"
             />
           </div>
         </div>
