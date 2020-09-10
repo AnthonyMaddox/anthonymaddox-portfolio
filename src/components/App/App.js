@@ -56,7 +56,7 @@ function App() {
       </div>
       <div className="projectsDiv">
         <div className="cssDiv">
-          <div className="categoryDiv">HTML & CSS:</div>
+          <div className="categoryDiv">CSS & HTML:</div>
           <Card
             title="Honeymoon Website mock-up"
             github="https://github.com/AnthonyMaddox/sei38-project1"
@@ -126,7 +126,7 @@ function App() {
           <div className="categoryDiv">Python:</div>
           <div>
             <ContactCard
-              title="Contact Book"
+              title="CLI Contact Book"
               github="https://github.com/AnthonyMaddox/contact-book"
             />
           </div>

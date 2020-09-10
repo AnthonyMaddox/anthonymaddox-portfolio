@@ -82,6 +82,12 @@
   font-size: 20px;
   font-family: "Roboto", sans-serif;
   text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+  height: 23px;
+  background-color: #055d96;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: -5px;
 }
 .projectsDiv {
   margin-top: 5px;
@@ -135,6 +141,7 @@
   }
   .categoryDiv {
     font-size: 16px;
+    height: 20px;
   }
   .cssDiv {
     flex-direction: column;
