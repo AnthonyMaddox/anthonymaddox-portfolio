@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Card/Card.js";
+import ContactCard from "../Card/ContactCard.js";
 import "./App.css";
 import resume from "./Anthony_Maddox_Resume.pdf";
 import headshot from "./amaddox-headshot1-small.jpg";
@@ -42,7 +43,7 @@ function App() {
           development. My adaptability and forbearance make me successful in
           working with multiple, diverse teams, simultaneously. I offer a
           passion for front-end development with the tools for programming my
-          artistic masterpieces to life.
+          artistic masterpieces to life. Flip over the cards to experience my journey into software engineering!
         </div>
       </div>
       <div className="projectsDiv">
@@ -72,7 +73,7 @@ function App() {
           </div>
           <div>
             <Card
-              title="Poisonous Plants"
+              title="Poisonous Plants Flash-Card Game"
               github="https://github.com/AnthonyMaddox/sei38-project4"
               deployed="https://anthonymaddox.github.io/sei38-project4/"
             />
@@ -89,7 +90,7 @@ function App() {
           </div>
           <div>
             <Card
-              title="Coders-Cookout api"
+              title="Coders-Cookoff API"
               github="https://github.com/AnthonyMaddox/recipes-group-project-backend"
               deployed="https://coders-cookout.herokuapp.com/recipes"
             />
@@ -116,10 +117,9 @@ function App() {
         <div className="pythonDiv">
           <div className="categoryDiv">Python:</div>
           <div>
-            <Card
+            <ContactCard
               title="Contact Book"
               github="https://github.com/AnthonyMaddox/contact-book"
-              deployed=""
             />
           </div>
         </div>

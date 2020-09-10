@@ -1,6 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Card from "./Card";
+import ContactCard from ContactCard.js
 
 storiesOf("Card", module)
   //primary (blue)
@@ -54,10 +55,9 @@ storiesOf("Card", module)
     />
   ))
   .add("Contact Book", () => (
-    <Card
+    <ContactCard
       title="Contact Book"
       github="https://github.com/AnthonyMaddox/contact-book"
-      deployed=""
     />
   ))
   .add("Coders-Cookout api", () => (
