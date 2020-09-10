@@ -158,3 +158,12 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 350px) {
+  .myName {
+    font-size: 30px;
+  }
+  .myTitle {
+    margin-top: -40px;
+    font-size: 11px;
+  }
+}
