@@ -34,16 +34,24 @@ function App() {
           >
             My Github
           </a>
+          <a href="https://soundcloud.com/anthony-j-maddox" target="_blank">
+            My SoundCloud
+          </a>
         </div>
         <div className="aboutDiv">
-          <b style={{ fontSize: "16px" }}>About:</b> I am a software engineer
-          with a background in fisheries biology and music. The desire to be
-          with my family in Maryland and a fascination for all things science
-          fuel my desire for continued education and my career in software
-          development. My adaptability and forbearance make me successful in
-          working with multiple, diverse teams, simultaneously. I offer a
-          passion for front-end development with the tools for programming my
-          artistic masterpieces to life. Flip over the cards to experience my journey into software engineering!
+          <b style={{ fontSize: "16px" }}>About:</b> I am a full-stack software
+          engineer with a background in fisheries biology and music. I have
+          worked for the last 8 years on the commercial fishing boats in Alaska,
+          collecting confidential, biological data for quota management by The
+          National Marine Fisheries Service. I now want to establish myself in
+          Maryland with a career in software development. My first
+          accomplishment has been graduating from the DC based, full-time, 3
+          month software engineering course at General Assembly (GA). At GA, I
+          completed over 500 hours of expert led instruction and hands on
+          learning of computer science fundamentals and the industry's most in
+          demand technologies. I am adaptable, patient, compassionate and
+          enduring. Flip over the cards to experience my journey into software
+          engineering!
         </div>
       </div>
       <div className="projectsDiv">
@@ -120,6 +128,13 @@ function App() {
             <ContactCard
               title="Contact Book"
               github="https://github.com/AnthonyMaddox/contact-book"
+            />
+          </div>
+          <div>
+            <Card
+              title="Statistics Without Borders Django Back-End"
+              github="https://github.com/statisticswithoutborders/swb-app/tree/develop/api"
+              deployed="https://swbapp.netlify.app/"
             />
           </div>
         </div>

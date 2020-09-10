@@ -54,15 +54,21 @@ storiesOf("Card", module)
       deployed="https://anthony-maddox-indian-cities.netlify.app/"
     />
   ))
+  .add("Coders-Cookout api", () => (
+    <Card 
+    title="Coders-Cookout api"
+    github="https://github.com/AnthonyMaddox/recipes-group-project-backend"
+    deployed="https://coders-cookout.herokuapp.com/recipes" />
+))
   .add("Contact Book", () => (
     <ContactCard
       title="Contact Book"
       github="https://github.com/AnthonyMaddox/contact-book"
     />
   ))
-  .add("Coders-Cookout api", () => (
-      <Card 
-      title="Coders-Cookout api"
-      github="https://github.com/AnthonyMaddox/recipes-group-project-backend"
-      deployed="https://coders-cookout.herokuapp.com/recipes" />
+  .add("SWB django Back-End", () => (
+    <Card 
+    title="Statistics Without Borders Django Back-End"
+    github="https://github.com/statisticswithoutborders/swb-app/tree/develop/api"
+    deployed="https://swbapp.netlify.app/" />
   ));
