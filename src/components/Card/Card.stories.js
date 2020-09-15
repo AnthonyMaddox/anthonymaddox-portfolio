@@ -64,6 +64,10 @@ storiesOf("Card", module)
     <ContactCard
       title="Contact Book"
       github="https://github.com/AnthonyMaddox/contact-book"
+      tech1="Python"
+      tech2="PostgreSQL"
+      tech3="Peewee"
+      tech4="Pipenv"
     />
   ))
   .add("SWB django Back-End", () => (

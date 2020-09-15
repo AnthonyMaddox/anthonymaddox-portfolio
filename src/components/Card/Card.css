@@ -3,9 +3,9 @@
 .flip-card {
   background-color: transparent;
   width: 160px;
-  height: 150px;
+  height: 250px;
   perspective: 1000px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .flip-card-inner {
@@ -16,9 +16,6 @@
   transition: all 0.8s ease;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   border-radius: 15px;
 }
 
@@ -32,12 +29,14 @@
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: 15px;
+  border: 2px solid rgb(216, 205, 191);
 }
 .flip-card-back a {
   font-family: "Roboto", sans-serif;
@@ -53,18 +52,60 @@
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-/* Style the front side (fallback if image is missing) */
+/* front side  */
 .flip-card-front {
-  background-color: rgb(108, 166, 219);
-  color: black;
-  font-size: 20px;
-  padding: 5px;
+  background-color: rgb(110, 148, 184);
+  color: rgb(34, 69, 109);
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 6px;
   font-family: "Indie Flower", cursive;
 }
 
-/* Style the back side */
+/* back side */
 .flip-card-back {
+  padding: 6px;
   background-color: rgb(86, 137, 153);
   color: white;
   transform: rotateY(180deg);
+}
+
+/* back of card components*/
+.backTitle {
+  font-size: 17px;
+  color: rgb(216, 205, 191);
+  font-weight: bold;
+}
+.backDiv {
+  display: flex;
+  flex-direction: column;
+  font-size: 11px;
+}
+.technologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.backLinksDiv a {
+  display: flex;
+  flex-direction: column;
+}
+/* front card pics */
+
+.deployedPic img {
+  height: 80px;
+  width: 140px;
+  border-radius: 5px;
+  opacity: 0.9;
+  border: 2px solid rgb(216, 205, 191);
+}
+
+.codePic img {
+  height: 75px;
+  width: 140px;
+  border-radius: 5px;
+  opacity: 0.9;
+  border: 2px solid rgb(216, 205, 191);
 }
