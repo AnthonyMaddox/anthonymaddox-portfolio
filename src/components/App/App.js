@@ -112,10 +112,10 @@ function App() {
               deployed="https://anthony-maddox-indian-cities.netlify.app/"
               tech1="Javascript"
               tech2="React"
-              tech2="Node.js"
-              tech3="MongoDB"
-              tech4="Mongoose"
-              tech5="Express"
+              tech2="Storybook"
+              tech3="React Router"
+              tech4="CSS"
+              tech5="HTML"
               deployedPic={swbFront}
               codePic={swbFrontCode}
             />
