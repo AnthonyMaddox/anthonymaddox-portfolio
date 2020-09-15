@@ -25,7 +25,6 @@ import swbFrontCode from "./images/swbFrontCode.png";
 import contactPic from "./images/contactPic.png";
 import contactCode from "./images/contactCode.png";
 
-
 function App() {
   return (
     <div className="App">
@@ -108,8 +107,8 @@ function App() {
           <div>
             <Card
               title="Statistics Without Borders Team Project Front-End"
-              github="https://github.com/AnthonyMaddox/indian-cities-MERN"
-              deployed="https://anthony-maddox-indian-cities.netlify.app/"
+              github="https://github.com/statisticswithoutborders/swb-app/tree/develop/client"
+              deployed="https://swbapp.netlify.app/"
               tech1="Javascript"
               tech2="React"
               tech2="Storybook"
@@ -188,7 +187,7 @@ function App() {
             />
           </div>
         </div>
-        
+
         <div className="apiDiv">
           <div className="categoryDiv">APIs:</div>
           <div>
