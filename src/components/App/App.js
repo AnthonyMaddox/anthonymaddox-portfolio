@@ -60,7 +60,7 @@ function App() {
         </div>
         <div className="aboutDiv">
           <b style={{ fontSize: "16px" }}>About:</b> I am a full-stack software
-          engineer with a background in fisheries biology and music. I have
+          engineer with a background in fisheries, biology and music. I have
           worked for the last 8 years on the commercial fishing boats in Alaska,
           collecting confidential, biological data for quota management by The
           National Marine Fisheries Service. I now want to establish myself in
