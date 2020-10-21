@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../Card/Card.js";
 import ContactCard from "../Card/ContactCard.js";
 import "./App.css";
-import resume from "./Anthony_Maddox_Resume.pdf";
+import resume from "./Anthony_Maddox_Resume1.pdf";
 import headshot from "./images/amaddox-headshot1-small.jpg";
 import indianCitiesFrontEnd from "./images/indianCitiesFrontEnd.png";
 import indianCitiesCode from "./images/indianCitiesCode.png";
